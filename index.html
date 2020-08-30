@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Minesweeper</title>
+
+  <link rel="stylesheet" href="minesweeper.css">
+</head>
+
+<body>
+
+
+
+<div class="gamecontainer">
+  <div class="gamescore">
+    <h4 id = "bombsleft">Creepers Left: </h4>
+    <h4 id="soundtoggle">Sound: On</h4>
+  </div>
+  <div id="minesweeper-canvas" class="minesweeper-canvas" oncontextmenu="return false;">
+    <div id="gameoversplash">
+    </div>
+    <div id="gameover">
+      <h1 id = "winlose">Game Over!</h1>
+      <h3 id="playagain">Play Again</h3>
+    </div>
+  </div>
+</div>
+
+<div class="minesweeper-intro">
+  <h3>Introducing</h3>
+  <h1>MINECRAFT: Creeper Sweeper!</h1>
+  <h3>(or, "Mine-Sweeper" for short)</h3>
+
+  <hr>
+
+  <h4 style = "margin: 50px 0;">Microsoft's classic Minesweeper, with Minecraft art and sound.</h4>
+
+  <p >Break stone blocks to find treasure, but watch out for creepers.</p>
+
+  <p>The blocks you reveal will tell you the number of creepers nearby(diagonals count!).</p>
+
+  <p>Use deduction (or good guesses) to steer clear of danger.</p>
+
+  <p>Click/tap a stone block to mark a suspected creeper block with redstone.  hold to break it, revealing what's underneath.</p>
+
+  <p>You win when you break every block but the creeper blocks!  The Creeper Counter will track your progress.</p>
+
+  <p>You lose if you discover a creeper.</p>
+
+  <p>MINECRAFT and Minesweeper are the intellectual property of Mojang and Microsoft.  </p>
+  <br />
+  <a href="https://giammattei.co/#/post/minesweeper"> <button type="button" name="contactbutton">
+    <h6>How It's Made</button></h6></a></div>
+
+
+<script src="minesweeper.js"></script>
+
+
+  </body>
+</html>
